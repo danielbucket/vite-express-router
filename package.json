@@ -1,0 +1,22 @@
+{
+  "name": "vite-express-template",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "nodemon src/server/main.js -w src/server",
+    "start": "NODE_ENV=production node src/server/server.js",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "vite-express": "*"
+  },
+  "description": "basic vite template with express server",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
