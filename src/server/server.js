@@ -10,3 +10,5 @@ app.use('/api/v1', router);
 ViteExpress.listen(app, PORT, () => {
   console.log(`Server is listening on port: ${ PORT }`);
 });
+
+module.exports = app;
